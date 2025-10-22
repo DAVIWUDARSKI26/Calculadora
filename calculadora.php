@@ -164,7 +164,7 @@ document.getElementById('calcForm').addEventListener('submit', function(e){
   try {
     let res = evaluateExpression(expr);
     resultInput.value = res;
-    this.submit(); // envia para o PHP salvar no histórico
+    this.submit();
   } catch {
     alert('Expressão inválida');
   }
